@@ -1,0 +1,14 @@
+---
+layout: default
+comments: true
+---
+<h1 class="post-headline">{{page.title}}</h1>
+<div class="meta"><span>{{page.date | date: '%B %d, %Y'}}</span></div>
+{{content}}
+
+<!-- Comments only for posts -->
+{% if page.path contains '_posts' %}
+	{% if layout.comments %}
+		{% include disqus.html %}
+	{% endif %}
+{% endif %}
