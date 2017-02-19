@@ -33,7 +33,7 @@ exclude:
   - Gemfile.lock
 
 # Comments
-disqus-shortname: webjeda-demo
+disqus-shortname: ablagoev-blog
 
 kramdown:
   syntax_highlighter: rouge
