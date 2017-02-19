@@ -20,18 +20,17 @@ layout: compress
 
   {{ content }}
 
-<footer>
-    <div class="links">
-        <a href="{{site.baseurl}}/about/">About</a>
-				<a href="mailto:{{ site.email }}">{{ site.email }}</a>
-				{% if site.github_username %}
-					{% include icon-github.html username=site.github_username %}
-				{% endif %}
-        <p>{{ site.description | escape }}</p>
-    </div>
-    <div class="theme" onclick="theme()" style="    background-image: url({{site.baseurl}}/images/theme.svg)"></div>
-</footer>
+	<footer>
+		<div class="links">
+			<a href="{{site.baseurl}}/about/">About</a>
+			<a href="mailto:{{ site.email }}">{{ site.email }}</a>
+			{% if site.github_username %}
+			{% include icon-github.html username=site.github_username %}
+			{% endif %}
+			<p>{{ site.description | escape }}</p>
+		</div>
+		<div class="theme" onclick="theme()" style="    background-image: url({{site.baseurl}}/images/theme.svg)"></div>
+	</footer>
 {% include analytics.html %}
-
 </body>
 </html>
