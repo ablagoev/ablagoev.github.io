@@ -3,6 +3,8 @@ layout: post
 title:  "Adventures in /usr/bin and the likes"
 date:   2017-02-19 14:00:00 +0200
 categories: linux adventures commands
+image: /images/linux.png
+description: Digging up some useful and not so popular commands in Linux
 ---
 
 # Introduction
