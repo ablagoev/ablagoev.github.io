@@ -50,5 +50,7 @@ compress_html:
   profile: false
   startings: []
 
+future: true
+
 sass:
  style: compressed
