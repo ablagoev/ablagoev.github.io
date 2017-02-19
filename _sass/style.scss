@@ -31,7 +31,6 @@ body {
          font-weight: bold;
          line-height: 1.8;
          margin: 0;
-         text-transform: capitalize;
     }
 
 
@@ -39,7 +38,7 @@ a {
     color: $brand-color;
     text-decoration: none;
     &:hover{
-     color: $text-color;   
+     color: $text-color;
     }
 }
 
@@ -103,7 +102,7 @@ blockquote {
 }
 
 .post-headline {
-    font-size: 4em;
+    font-size: 3em;
         @include media-query($on-palm) {
             font-size: 1.5em;
     }
