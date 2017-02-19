@@ -546,7 +546,7 @@ Like I said, though, this one needs a full blog post as there is a lot more to i
 
 > print a stack trace of a running process
 
-Again... Awesome! Being able to see the stacktrace of a rouge process can definitely help in tracking down a problem. Usage is pretty straightforward:
+Again... Awesome! Being able to see the stacktrace of a rogue process can definitely help in tracking down a problem. Usage is pretty straightforward:
 
 ```
 gstack pid
