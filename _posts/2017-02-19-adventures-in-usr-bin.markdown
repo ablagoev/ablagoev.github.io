@@ -13,7 +13,7 @@ I just love Linux! For me it makes interacting with your computer fun and educat
 
 As we all know interacting with Linux is achieved mostly through programs (commands). One of the things which differentiates Linux and the \*nix based systems is the command line and the concept of pipes. Combining the input and output of programs provides a very powerful platform for manipulating data.
 
-Most of the Linux commands/programs/binaries (however you decide to call them) reside under /usr/bin, /usr/sbin, /bin and /usr/local/bin. Looking through the contents of these folders we can see a lot of programs. This got me thinking, what are all those binaries meant to do, in my daily work I hardly use any of them. So I decided to go on a treasure hunt and write about my findings in this blog post.
+Most of the Linux commands/programs/binaries (however you decide to call them) reside under /usr/bin, /usr/sbin, /bin and /usr/local/bin. Looking through the contents of these directories we can see a lot of programs. This got me thinking, what are all those binaries meant to do, in my daily work I hardly use any of them. So I decided to go on a treasure hunt and write about my findings in this blog post.
 
 As a start, I wanted to see some data, a simple count on my machine for /usr/bin gives:
 
